@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev blog --open --host \"localhost\"",
+    "build": "vuepress build blog",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjianhua567/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangjianhua567/blog/issues"
+  },
+  "homepage": "https://github.com/huangjianhua567/blog#readme",
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-meting": "^0.2.3",
+    "vuepress-plugin-ribbon-animation": "^1.1.3",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+  }
+}
