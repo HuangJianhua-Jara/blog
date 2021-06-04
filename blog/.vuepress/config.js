@@ -10,7 +10,20 @@ module.exports = {
         "language": "javascript",
         "type": "text/javascript",
         "src": "/js/MouseClickEffect.js" // 引入鼠标点击脚本
-      }
+      },
+      "script",
+      {
+        "language": "javascript",
+        "type": "text/javascript",
+        "src": "https://cdn.jsdelivr.net/npm/vue/dist/vue.js"
+      },
+      "script",
+      {
+        "language": "javascript",
+        "type": "text/javascript",
+        "src": "/js/TypingWordsEffect.js" // 引入鼠标点击脚本
+      },
+      // <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     ],
 
     // ["script", { src: "/js/jquery-1.11.3.min.js" }],
@@ -81,11 +94,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "正准备写点什么"
       },
       "tag": {
         "location": 3,
-        "text": "这是标签分类"
+        "text": "标签分类"
       }
     },
     "friendLink": [

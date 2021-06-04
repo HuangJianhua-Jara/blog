@@ -78,8 +78,10 @@ bgImageStyle: {
 
 
 <script>
+
+
 export default {
-  
+
   mounted () {
     const ifJanchor = document.getElementById("JanchorDown"); 
     ifJanchor && ifJanchor.parentNode.removeChild(ifJanchor);
@@ -99,9 +101,7 @@ export default {
       document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
     }
   }
+
 }
 </script>
-
-
-
 
