@@ -11,17 +11,17 @@ module.exports = {
         "type": "text/javascript",
         "src": "/js/MouseClickEffect.js" // 引入鼠标点击脚本
       },
+      // "script",
+      // {
+      //   "language": "javascript",
+      //   "type": "text/javascript",
+      //   "src": "https://cdn.jsdelivr.net/npm/vue/dist/vue.js"
+      // },
       "script",
       {
         "language": "javascript",
         "type": "text/javascript",
-        "src": "https://cdn.jsdelivr.net/npm/vue/dist/vue.js"
-      },
-      "script",
-      {
-        "language": "javascript",
-        "type": "text/javascript",
-        "src": "/js/TypingWordsEffect.js" // 引入鼠标点击脚本
+        "src": "/js/TypingWordsEffect.js" // 打字机
       },
       // <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     ],
