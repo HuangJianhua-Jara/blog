@@ -2,7 +2,8 @@ module.exports = {
   "title": "Jara's blog",
   "description": "一个栖息的小窝",
   "dest": "public",
-  "base": "/blog/",
+  // "base": "/", // 挂在服务器上就不用  /blog/
+  // 上传到github要 "base": "/blog/",
   "head": [
     [
       "script",
@@ -121,7 +122,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Jara Wong",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    "record": "粤ICP备2021081981号",
     "startYear": "2021"
   },
 
