@@ -70,6 +70,11 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
+            "text": "语雀",
+            "link": "https://blog.csdn.net/weixin_43720253",
+            "icon": "reco-document"
+          },
+          {
             "text": "CSDN",
             "link": "https://blog.csdn.net/weixin_43720253",
             "icon": "reco-csdn"
@@ -83,24 +88,24 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
-    },
+    // "sidebar": {
+    //   "/docs/theme-reco/": [
+    //     "",
+    //     "theme",
+    //     "plugin",
+    //     "api"
+    //   ]
+    // },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "正准备写点什么"
+        "text": "学习记录"
       },
-      "tag": {
-        "location": 3,
-        "text": "标签分类"
-      }
+      // "tag": {
+      //   "location": 3,
+      //   "text": "标签分类"
+      // }
     },
     "friendLink": [
       {
@@ -114,6 +119,11 @@ module.exports = {
         "desc": "A simple and beautiful vuepress Blog & Doc theme.",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
+      },
+      {
+        "title": "PengSir",
+        "desc": "我是彭先生，热爱编程，乐于分享",
+        "link": "https://www.bookbook.cc/"
       }
     ],
     "logo": "/avatar.png",
@@ -129,7 +139,6 @@ module.exports = {
   "markdown": {
     "lineNumbers": true
   },
-
 
   plugins: [
 
@@ -224,7 +233,7 @@ module.exports = {
         // 颜色
         theme: '#f9bcdd',
         // 播放顺序为随机
-        order: 'random',
+        // order: 'random',
         // 初始音量
         volume: 0.3,
         // 关闭歌词显示

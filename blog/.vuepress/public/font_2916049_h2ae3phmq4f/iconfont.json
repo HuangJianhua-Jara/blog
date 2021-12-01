@@ -1,0 +1,16 @@
+{
+  "id": "2916049",
+  "name": "blog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4936975",
+      "name": "yuque",
+      "font_class": "yuque",
+      "unicode": "e880",
+      "unicode_decimal": 59520
+    }
+  ]
+}
